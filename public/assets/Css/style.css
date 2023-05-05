@@ -1,0 +1,143 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
+
+body {
+    background: #000;
+}
+  
+#video-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -100;
+}
+  
+#video-background video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+  
+
+
+html {
+    font-family: 'Bebas Neue', cursive;
+}
+
+main{
+    position: relative;
+}
+
+#vanta {
+    z-index: 0;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.container {
+    max-width: 500px;
+    margin: 0 auto;
+    height: 100vh;
+    
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    font-family: 'Allan', cursive;
+    
+}
+
+.profile> p {
+    font-size: 1.8em;
+    font-weight: 900;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    text-align: center;
+    background-color: rgba(0,0,0,.7 );
+    border: rgba(0,0,0,0.7 );
+    border-radius: 10px;
+    box-shadow: 10px 7px 8px -2px rgba(0,0,0,0.49);
+-webkit-box-shadow: 10px 7px 8px -2px rgba(0,0,0,0.49);
+-moz-box-shadow: 10px 7px 8px -2px rgba(0,0,0,0.49);
+}
+
+.profile>p>a {
+    text-decoration: none;
+    color: white;
+    
+}
+
+.profile>p>a:hover {
+    color: #FFBD00;
+    transition: all .6s ease-in-out;
+    
+}
+
+.profile> img {
+    width: 150px;
+    height: 150px;
+    border: 3px solid white;
+    border-radius: 100%;
+    box-shadow: 12px 11px 5px -5px rgba(0,0,0,0.52);
+-webkit-box-shadow: 12px 11px 5px -5px rgba(0,0,0,0.52);
+-moz-box-shadow: 12px 11px 5px -5px rgba(0,0,0,0.52);
+}
+
+.link {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+}
+
+
+.link>a {
+    
+    text-decoration: none;
+    color: black;
+    font-size: 24px;
+    text-align: center;
+    border: rgba(255,255,255,.2 );
+    border-radius: 20px;
+    background-color: rgba(255,255,255,.2 );
+    margin: 5px 50px;
+    padding: 10px;
+    text-transform: uppercase;
+    font-weight: 500;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+.link > a:hover {
+    background-color:#4A4E69;
+    transition: all .6s ease-in-out;
+}
+
+footer {
+    text-align: center;
+}
+
+footer>i {
+    color: white;
+    font-size: 2opx;
+}
